@@ -1,0 +1,50 @@
+{
+  "name": "awp3_start_template",
+  "version": "1.2.0",
+  "description": "> This is my starting template for fast site development. I have collected here all files of libraries which I most often need at work. Also here are connected basic styles and scripts, and styles and scripts for different UI elements. The template is built by the Gulp preprocessor. All files are collected, optimized and stored in a separate folder. All photos are optimized and converted to modern .webp format. For browsers that do not support webp, the picture will automatically connect to .jpg or .png. All fonts are optimized and converted to the modern format woff and woff2 and automatically connect.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriiwp3/awp3_start_template.git"
+  },
+  "author": "Andrii Herchykov",
+  "license": "ISC",
+  "homepage": "https://github.com/andriiwp3/awp3_start_template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.2.2",
+    "gulp-fonter": "^0.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-html": "^1.0.2",
+    "gulp-webpcss": "^1.1.1",
+    "webp-converter": "^2.2.3"
+  },
+  "bugs": {
+    "url": "https://github.com/andriiwp3/awp3_start_template/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mailgun-js": "^0.22.0"
+  },
+  "keywords": []
+}

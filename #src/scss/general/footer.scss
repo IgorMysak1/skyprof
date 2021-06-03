@@ -1,0 +1,303 @@
+.footer {
+    height: 100%;
+    width: 100%;
+    background: #00336C;
+    padding: 50px 0;
+    @media (max-width:$md3+px){
+        &{
+            padding: 25px 0;
+        }
+    }
+}
+
+.wrapper-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    @media (max-width:$md4+px){
+        &{
+            flex-direction: column;
+        }
+    }
+}
+.row1-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+    &__logo img{
+        height: 40px;
+        width: 240px;
+        margin-bottom: 40px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+
+    &__social { 
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        img{
+            padding: 8px 0;
+        }
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 145%;
+            color: #FFFFFF; 
+            padding-top: 10px;           
+        }
+    }
+    @media (max-width:$md1+px){
+        &{
+            justify-content: flex-start;
+            padding-top: 10px;
+        }
+        &__logo img{
+            height: 35px;
+            width: 200px;
+            margin-bottom: 30px;
+        }
+        &__info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+            padding-bottom: 15px;
+            img{
+                width: 40px;
+                height: 15px;
+                padding-left: 10px;
+            }
+            picture{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        &__social { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            img{
+                padding-right: 10px;
+                width: 43px;
+                height: 50px;
+            }
+        }
+        &__text {
+            p{
+                font-size: 22px;
+            }
+        }
+    }
+    @media (max-width:$md3+px){
+        &{
+            padding: 0 10px;
+        }
+        &__logo img{
+            height: 30px;
+            width: 170px;
+            margin: 10px 0 30px;
+        }
+    }
+    @media (max-width:$md4+px){
+        &{
+            align-items: center;
+        }
+        &__text {
+            align-items: center;
+        }
+    }
+}
+.row2-footer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 20px;
+    h1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 145%;
+        color: #FFFFFF;
+    }
+    &__li {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    &__li3 {
+        margin-top: 35px;
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 37px;
+        color: #FFFFFF;
+    }
+    @media (max-width:$md1+px){
+        &{
+            padding: 0 10px;
+        }
+        &__li {
+            font-family: Roboto;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+    }
+    @media (max-width:$md2+px){
+        &{
+            display: none;
+        }
+    }
+}
+.row3-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+    p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 145%;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    span{
+        display: flex;
+        flex-direction: column;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 145%;
+        color: #FFFFFF;
+    }
+    @media (max-width:$md1+px){
+        span{
+            font-size: 22px;
+        }
+    }
+    @media (max-width:$md2+px){
+        p{
+            padding-top: 10px;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+    @media (max-width:$md3+px){
+        &{
+            padding: 0 10px;
+        }
+    }
+    @media (max-width:$md4+px){
+        &{
+            margin: 0 auto;
+        }
+        img{
+            display: none;
+        }
+    }
+}
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 150%;
+        color: #00418B;
+        padding: 7px 24px;
+        background: #EEEEEE;
+        border-radius: 61px;
+    }
+    &__politica,
+    &__by {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    @media (max-width:$md1+px){
+        &__btn {
+           font-size: 21px;
+        }
+    }
+    @media (max-width:$md2+px){
+        &__btn {
+           font-size: 18px;
+           padding: 5px 13px;
+        }
+        &__politica,
+        &__by {
+            font-size: 18px;
+        }
+    }
+    @media (max-width:$md3+px){
+        &{
+            flex-direction: column;
+            padding-top: 25px;
+        }
+        &__btn {
+            margin-bottom: 10px;
+        }
+        &__politica,
+        &__by {
+            padding-top: 7px;
+        }
+    }
+}
+
